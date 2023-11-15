@@ -18,3 +18,15 @@
   font-size: 16px;
   color: white;
 }
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-text {
+  color: purple;
+  font-size: 30px;
+  font-family: monospace;
+}

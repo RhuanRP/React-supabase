@@ -57,7 +57,7 @@ const App: React.FC = () => {
   }, [userId]);
 
   return (
-    <div>
+    <div className='body'>
       <Header />
       <Auth
         supabaseClient={supabase}
@@ -70,7 +70,7 @@ const App: React.FC = () => {
       <div className='input-area'>
         <ImageUpload onChange={handleFileChange} />
       </div>
-      <button onClick={handleSendFiles}>Enviar</button>
+      <button className="send-button" onClick={handleSendFiles}>Enviar</button>
     </div>
   );
 };

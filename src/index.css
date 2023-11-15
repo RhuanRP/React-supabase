@@ -4,3 +4,22 @@
   justify-content: center;
   align-items: center;
 }
+
+.body {
+  background-color: #f3f3f3;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send-button {
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 600px;
+  color: white;
+  background-color: rgb(128, 0, 128);
+  border-radius: 8px;
+}

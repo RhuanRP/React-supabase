@@ -1,4 +1,5 @@
 import { FC, useRef, DragEvent, useEffect } from 'react';
+import './imageUpload.css'
 
 type imageUploadProps = {
   onChange: React.ChangeEventHandler<HTMLInputElement> | undefined;
@@ -57,8 +58,8 @@ const ImageUpload: FC<imageUploadProps> = ({ onChange }: imageUploadProps) => {
         htmlFor='upload'
         className='flex flex-col justify-center items-center gap-4 w-full h-48 border border-dashed rounded-2xl cursor-pointer hover:bg-zinc-700'>
 
-        <h2 className='text-lg text-zinc-300'>
-          Click to <strong>upload</strong> or drag and drop
+        <h2>
+          Clique aqui <strong className='upload-text'>upload</strong> ou arraste seu arquivo
         </h2>
 
         <input
